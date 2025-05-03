@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>founding Info</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body >
+  <div class="absolute top-4 right-4 w-72 mr-40">
+    <div class="flex justify-between text-sm font-medium text-gray-500 mb-1">
+      <span>Setup Progress</span>
+      <span class="text-[#0066FF]">25% Completed</span>
+    </div>
+    <progress value="25" max="100" class="w-full h-2 rounded-full"></progress>
+  </div>
+  
+<div class="container">
+  <header class="header">
+    <img
+      src="https://img.icons8.com/ios-filled/50/0066FF/briefcase.png"
+      alt="Logo"
+    />
+    <h2 class="text-xl font-bold">SkatJobs</h2>
+  </header>
+  <div class="contentBody">
+    <nav class="nav-tabs">
+      <ul>
+        <li>
+          <a href="index.html"><i class="fas fa-user"></i> Company Info </a>
+        </li>
+        <li>
+          <a href="foundingInfo.html"
+            ><i class="fas fa-circle-user"></i> Founding Info</a
+          >
+        </li>
+        <li>
+          <a href="socialMediaProfile.html"
+            ><i class="fa-solid fa-globe"></i>Social Media Profile</a
+          >
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa-solid fa-at"></i>Contact</a>
+        </li>
+      </ul>
+    </nav>  
+  </div>
+
+  <div class=" hero2 max-w-5xl ml-20 p-6 pl-20 ">
+    <div class=" grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+      <!-- Organization Type -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Organization Type</label>
+        <select class=" labels w-full border border-gray-300 rounded-md py-2 px-3 text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <option>Select...</option>
+          <option>Private</option>
+          <option>Public</option>
+        </select>
+      </div>
+  
+      <!-- Industry Types -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Industry Types</label>
+        <select class="labels w-full border border-gray-300 rounded-md py-2 px-3 text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <option>Select...</option>
+          <option>Technology</option>
+          <option>Finance</option>
+        </select>
+      </div>
+  
+      <!-- Team Size -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Team Size</label>
+        <select class="labels w-full border border-gray-300 rounded-md py-2 px-3 text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <option>Select...</option>
+          <option>1-5</option>
+          <option>6-10</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="hero3 grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+      <!-- Year of Establishment -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Year of Establishment</label>
+        <input type="date" class="labels w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+      </div>
+    
+      <!-- Company Website -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Company Website</label>
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+            <i class="fa-solid fa-link" style="color: #0066ff;"></i>
+          </span>
+          <input type="text" placeholder="Website url..." class="labels w-full pl-10 border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Company Vision -->
+    <div class="mb-6">
+      <label class="block text-sm font-medium text-gray-700 mb-1">Company Vision</label>
+      <textarea rows="5" placeholder="Tell us about your company vision..." class="labels w-full border border-gray-300 rounded-md py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+    </div>
+    
+    <div class="flex  gap-2">
+      <button onclick="window.location.href='index.html'" class="  px-6 py-2 bg-gray-200 text-sm font-semibold text-gray-700 hover:bg-gray-300">
+        Previous
+      </button>
+      <button onclick="window.location.href='socialMediaProfile.html'" class=" px-6 py-2 bg-blue-600 text-white  text-sm font-semibold hover:bg-blue-700">
+        Save & Next <i class="fa-solid fa-arrow-right  w-4 h-4 ml-3 mt-1 "></i>
+      </button>
+    </div>
+
+
+  </div>
+  
+  <footer class="w-full border-t " style="border-color: #e0e0e0;">
+    <div class=" text-center text-gray-400 text-xs py-6 ">
+      © 2024 MyJob - Job Portal. All rights Reserved
+    </div>
+  </footer>
+    
+</body>
+</html>
